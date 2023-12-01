@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: black;
+
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    /* background-color: red; */
+
+}
+
+#logo{
+    margin-left: 20px;
+
+}
+
+#link{
+    display: flex;
+    gap: 50px;
+    text-transform: uppercase;
+
+}
+
+#btn{
+    margin-right: 20px;
+
+}
+button{
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    margin-left: 10px;
+
+}
+
+
+#text{
+    text-align: center;
+    font-size: 60px;
+    line-height: 150px;
+
+}
+
+#text h1:nth-child(1){
+    margin-top:  150px;
+   
+
+
+}
