@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
 }
 html,body{
     width: 100%;
@@ -31,6 +32,7 @@ nav{
     display: flex;
     gap: 50px;
     text-transform: uppercase;
+    font-size: 30px;
 
 }
 
@@ -50,13 +52,68 @@ button{
 #text{
     text-align: center;
     font-size: 60px;
-    line-height: 150px;
+    line-height: 200px;
 
 }
 
 #text h1:nth-child(1){
-    margin-top:  150px;
+    margin-top:  50px;
    
 
 
+}
+
+#text span{
+    background-color: brown;
+    border-radius: 50px;
+    padding: 50px;
+    margin-right: 10px;
+}
+
+#first{
+    position: absolute;
+    top: 100px;
+    height: 40%;
+   
+
+
+}
+img{
+    height: 100%;
+    border-radius: 8px;
+
+
+}
+
+#src{
+    position: absolute;
+    bottom: 20px;
+    right:100px;
+    height: 40%;
+   
+
+}
+
+#scroll{
+    position: absolute;
+    left: 45%;
+    bottom: 90px;
+    font-size: 30px;
+
+
+}
+
+#icons{
+    margin-left: 50px;
+    font-size: 50px;
+    margin-top: 70px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: brown;
 }
