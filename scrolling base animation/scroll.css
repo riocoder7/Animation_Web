@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html,body{
+    background-color: black;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+
+
+
+
+}
+
+#link{
+    display: flex;
+    gap: 50px;
+
+}
+
+#logo h1{
+    margin-left: 10px;
+
+}
+
+button{
+    padding: 5px;
+    font-size: 18px;
+    margin-right: 20px;
+    border-radius: 8px;
+    color: black;
+
+}
+
+
+#page1{
+    margin-top: 200px;
+    width: 100%;
+    height: 97vh;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#left{
+    font-size: 50px;
+    padding: 20px 100px;
+    width: 50%;
+    height: 450px;
+   
+}
+
+#right{
+    width: 50%;
+    height: 450px;
+    
+    padding: 15px 100px;
+    
+}
+#right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px ;
+
+}
+
+#two_box{
+    width: 100%;
+    height: 350px;
+    /* border: 2px solid green; */
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+
+}
+
+#one{
+    width: 40%;
+    height: 250;
+    padding: 50px;
+    border: 2px solid rosybrown;
+    margin-left: 100px;
+    border-radius: 8px;
+
+
+
+}
+
+#two{
+    width: 40%;
+    height: 250;
+    padding: 50px;
+    border: 2px solid rosybrown;
+    border-radius: 8px;
+}
+#one, #two h1{
+    text-align: center;
+}
+ p{
+    margin-top: 20px;
+    font-size: 17px;
+
+}
+#page2{
+    width: 100%;
+    height: 600px;
+    /* background-color: rgb(0, 98, 128); */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.div{
+
+    width: 20%;
+    height: 200px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 20px;
+    
+
+}
+
+#footer{
+    width: 100%;
+    height: 300px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+
+}
+
+.footers{
+    width: 20%;
+    height: 100%;
+    /* border: 2px solid red; */
+    border-radius: 8px;
+    text-align: center;
+    
+}
+
+#copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: brown;
+
+}
